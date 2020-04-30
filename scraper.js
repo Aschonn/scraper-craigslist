@@ -5,9 +5,9 @@ const fs = require("fs");
 
 
 //Enter In A State:
-const state = "fargo"; //enter a value here
+const city = "fargo"; //enter a value here
 
-const url = `https://${state}.craigslist.org`;
+const url = `https://${city}.craigslist.org`;
 
 
 main().then(() => console.log('Done')).catch(error => console.log("there was an error in your inputs please reload and enter valid inputs", error));
